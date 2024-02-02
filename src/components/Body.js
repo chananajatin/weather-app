@@ -100,7 +100,7 @@ const Body = () => {
           <img className="cloud" src={image_link} />
         </div>
         <div className="temp">
-          {temperature}°{isCelsius ? "C" : "F"}
+          {temperature.toFixed(2)}°{isCelsius ? "C" : "F"}
         </div>
         <div className="city-name">
           {citydata.city.name},{citydata.city.country}
