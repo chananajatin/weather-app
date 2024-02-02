@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Switch, Skeleton, Button } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import Shimmer from "./Shimmer";
-import Card from "./CARD.JS";
+import Card from "./WeatherCard";
 
 const DEFAULT_CITY = "Leh";
 const DAY_WISE_INDEX = [5, 13, 22, 27, 35];
