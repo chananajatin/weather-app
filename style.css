@@ -1,3 +1,6 @@
+.body {
+  margin: 0;
+}
 .header-container {
   background-color: #3498db;
   color: #ffffff;
@@ -12,6 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .main-card {
   width: 500px;
@@ -135,7 +139,6 @@
   margin: 2px;
   padding: 2px;
 }
-.card-container
-{
+.card-container {
   margin-top: 30px;
 }

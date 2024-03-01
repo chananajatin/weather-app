@@ -5,7 +5,7 @@ import Shimmer from "./Shimmer";
 import Card from "./WeatherCard";
 
 const DEFAULT_CITY = "Delhi";
-const DAY_WISE_INDEX = [5, 13, 22, 27, 35];
+const DAY_WISE_INDEX = [4, 12, 22, 27, 35];
 const Body = () => {
   const [city, setcity] = useState(DEFAULT_CITY);
   const [inputCity, setInputCity] = useState(DEFAULT_CITY);
